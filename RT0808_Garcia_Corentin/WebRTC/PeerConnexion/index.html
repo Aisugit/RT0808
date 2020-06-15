@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+ *  Copyright (c) The WebRTC project authors. All Rights Reserved.
+-->
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Peer connexion</title>
+    <link rel="stylesheet" href="css/main.css"/>
+
+</head>
+
+<body>
+
+<div id="container">
+    <h1><span>Peer connexion</span></h1>
+
+    <video id="localVideo" playsinline autoplay muted></video>
+    <video id="remoteVideo" playsinline autoplay></video>
+
+    <div class="box">
+        <button id="startButton">Start</button>
+        <button id="callButton">Call</button>
+        <button id="hangupButton">Hang Up</button>
+    </div>
+
+    <div class="box">
+        <span>SDP Semantics:</span>
+        <select id="sdpSemantics">
+            <option selected value="">Default</option>
+            <option value="unified-plan">Unified Plan</option>
+            <option value="plan-b">Plan B</option>
+        </select>
+    </div>
+
+</div>
+
+<p><a href="..\index.html">Retour au menu</a></p>
+
+<script src="js/main.js" async></script>
+
+</body>
+</html>

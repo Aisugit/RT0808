@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+ *  Copyright (c) The WebRTC project authors. All Rights Reserved.
+-->
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Séléctionner les sources audio et vidéo</title>
+
+    <style>
+        div.select {
+            display: inline-block;
+            margin: 0 0 1em 0;
+        }
+
+        p.small {
+            font-size: 0.7em;
+        }
+
+        label {
+            width: 12em;
+            display: inline-block;
+        }
+    </style>
+
+</head>
+
+<body>
+<div id="container">
+
+    <h1><span>Séléctionner les sources audio et vidéo</span></h1>
+
+    <div class="select">
+        <label for="audioSource">Audio input source: </label><select id="audioSource"></select>
+    </div>
+
+    <div class="select">
+        <label for="audioOutput">Audio output destination: </label><select id="audioOutput"></select>
+    </div>
+
+    <div class="select">
+        <label for="videoSource">Video source: </label><select id="videoSource"></select>
+    </div>
+
+    <video id="video" playsinline autoplay></video>
+
+</div>
+
+<p><a href="..\index.html">Retour au menu</a></p>
+
+<script src="js/main.js" async></script>
+
+</body>
+</html>

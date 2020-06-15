@@ -1,0 +1,8 @@
+Les deux dossiers dans ce répertoire contiennent respectivement les codes concernant WebRTC et WebSocket.
+
+Pour WebRTC, simplement lancer la page index.html dans ce dernier permettra d'acceder aux autres pages de test.
+
+Concernant WebSocket, on trouva dans le dossier deux répertoires contenant dans l'un, un exmeple d'utilisation sans naviguateur, et dans l'autre un exemple d'utilisation avec naviguateur.
+Dans les deux cas, le serveur doit être exécuter avant le client et la page web représentant le client dans l'exemple web peut être ouverte plusieurs fois pour avoir plusieurs clients de connecter à l'application.
+
+/!\/!\ Je tiens à signaler que certains des scripts présent dans ces exemples sont des codes que j'ai trouvé sur internet et dont je me sers pour illustrer mon rapport /!\/!\
